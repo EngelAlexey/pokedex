@@ -1,0 +1,23 @@
+/* Estilo para las imágenes de las cartas */
+.card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+    width: 100%;
+}
+
+/* Reducir el margen entre las cartas */
+.card {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Asegurarse de que las cartas se distribuyan correctamente */
+#pokemon-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
